@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script>
+
+        function greet(){
+
+            let name = document.querySelector('#name').value;
+
+            alert("Hello," + name)
+        }
+
+
+    </script>
+   <title>search</title>
+</head>
+<body>
+
+    <p>
+This is my first webpage design
+ </p>
+    <form action= "https://www.google.com/search" method="get" onsubmit="greet()" return false>
+    <input  id = "name" type = "text">
+    <input type = "submit" value="Search">
+    </form>
+</body>
+</html>
